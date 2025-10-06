@@ -83,6 +83,7 @@ void DrawGame() {
     //}
 
     DrawRectangleLinesEx(levelBounds, 2, RED);
+    DrawText(TextFormat("Bush Jump Score: %i", bushjumpScore), 20 ,60 , 30, YELLOW);
 
     EndMode2D();
 
