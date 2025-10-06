@@ -29,7 +29,7 @@ inline T Clamp(T value, T min, T max) {
 
 void InitGame() {
     // Fix: Use TextFormat to concatenate string and int for window title
-    InitWindow(screenWidth, screenHeight, TextFormat("Bush Jump Score: %d", bushjumpScore));
+    InitWindow(screenWidth, screenHeight, "Bush Jump";
     SetTargetFPS(60);
 
     camera.offset = Vector2{ screenWidth / 2.0f, screenHeight / 2.0f };
